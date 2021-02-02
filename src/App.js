@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+// import React, {useState} from 'react';
+// import axios from 'axios';
+// import FetchUser from "./services/FetchUser";
 import './App.css';
+import User from "./components/User";
 
 function App() {
+
+  // const refreshUser = (fetchUser) =>{
+    
+
+  // }
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="container">
+      <header>
+        <h1>Random User's React</h1>
       </header>
+
+      {/* {console.log(FetchUser())} */}
+
+      <User/>
+
     </div>
   );
 }
